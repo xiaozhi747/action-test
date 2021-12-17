@@ -1,0 +1,9 @@
+name: 'lz action test'
+description: 'lz action test'
+author: 'lz'
+branding:
+  icon: 'cloud'
+  color: 'blue'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
