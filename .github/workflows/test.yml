@@ -13,6 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - run: cd /tmp && echo 11 > a.txt
     - run: pwd && ls && echo 11 > a.txt
     - run: pwd && ls && cat a.txt
     - uses: xiaozhi747/action-test@main
