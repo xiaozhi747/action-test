@@ -13,5 +13,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: lz-plugin
     - uses: xiaozhi747/action-test@main
+      name: lz-plugin
