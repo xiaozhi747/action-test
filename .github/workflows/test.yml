@@ -16,3 +16,4 @@ jobs:
     - run: export k=kkk
     - uses: xiaozhi747/action-test@main
       name: lz-plugin
+    - run: echo ${k}
