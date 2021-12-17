@@ -13,8 +13,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - run: export k=kkk
-    - run: echo ${k}
+    - run: pwd && ls && echo 11 > a.txt
+    - run: pwd && ls && cat a.txt
     - uses: xiaozhi747/action-test@main
       name: lz-plugin
-    - run: echo ${k}
+    - run: pwd && ls -l && cat a.txt
