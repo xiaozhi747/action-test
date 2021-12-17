@@ -1,2 +1,4 @@
 #!/bin/bash
-env
+pwd
+ls -l
+cat a.txt
