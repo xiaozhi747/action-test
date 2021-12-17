@@ -4,6 +4,10 @@ author: 'lz'
 branding:
   icon: 'cloud'
   color: 'blue'
+inputs:
+  args:
+    description: 'an args'
+    required: false
 runs:
   using: 'docker'
   image: 'Dockerfile'
