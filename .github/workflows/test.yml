@@ -13,5 +13,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - run: export k=kkk
     - uses: xiaozhi747/action-test@main
       name: lz-plugin
