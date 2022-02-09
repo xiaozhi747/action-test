@@ -1,7 +1,7 @@
 #!/bin/bash
 echo AAA
 echo SECRET_TESTAA
-echo $SECRET_TEST
+echo ${{ secrets.SECRET_TEST }}
 echo ---
 
 pwd
