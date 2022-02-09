@@ -13,6 +13,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - shell: bash
+      env: 
+        SS:  ${{ secrets.SECRET_TEST }}
+      run: | 
+        echo ---
+        echo $SS
+        echo ---
+        
     - run: cd /tmp && echo 11 > a.txt
     - run: pwd && ls && echo 11 > a.txt
     - run: pwd && ls && cat a.txt
