@@ -18,7 +18,10 @@ jobs:
         SS:  ${{ secrets.SECRET_TEST }}
       run: | 
         echo ---
+        echo SECRET_TESTAA
         echo $SS
+        echo $SS > a.txt
+        cat a.txt
         echo ---
         
     - run: cd /tmp && echo 11 > a.txt
