@@ -19,6 +19,7 @@ jobs:
       run: | 
         echo ---
         echo SECRET_TESTAA
+        echo ${{ secrets.SECRET_TEST }}
         echo "$SS"
         echo $SS > a.txt
         cat a.txt
